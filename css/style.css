@@ -107,3 +107,41 @@ nav a:hover {
     width: 24.75rem;
     background-color: var(--background-color-a);
 }
+
+
+
+.links-content {
+    display: grid;
+    grid-template-columns: repeat(3, 24.75rem);
+    grid-auto-rows: 6rem;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--border-radious) var(--border-radious) var(--border-radious) var(--border-radious);
+    width: 24.75rem;
+    height: 5rem;
+    background-color: var(--background-color-a);
+    align-items: center;
+
+    display: flex;
+}
+
+.links img {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    object-fit: contain;
+    border-radius: 30%;
+}
+
+.links-content a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}

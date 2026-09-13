@@ -32,10 +32,16 @@ body {
     padding: 10px;
     gap: 0.5rem;
     align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 nav {
-    width: 100%;
+    width: 75%;
     height: 2.5rem;
     background-color: var(--background-color-a);
     display: flex;
@@ -95,6 +101,7 @@ nav a:hover {
 }
 
 #interests {
+    padding: 1rem;
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--border-radious) 0 0 var(--border-radious);
     width: 24.75rem;
@@ -102,6 +109,7 @@ nav a:hover {
 }
 
 #activities {
+    padding: 1rem;
     border: var(--border-width) solid var(--border-color);
     border-radius: 0 var(--border-radious) var(--border-radious) 0;
     width: 24.75rem;

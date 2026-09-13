@@ -10,9 +10,9 @@ The website is built with HTML, CSS, and a small bit of JavaScript. It's got a h
 
 ## Pages
 
-- `index.html` — Home page that has a small intro, fun facts, interests, and what I'm currently up to
-- `projects.html` — Things I've made
-- `links.html` — Links to my profiles/socials
+- `index.html` - Home page that has a small intro, fun facts, interests, and what I'm currently up to
+- `projects.html` - Things I've made
+- `links.html` - Links to my profiles/socials
 
 ## Tech stack
 

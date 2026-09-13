@@ -8,6 +8,110 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <div id="fog">
+            
+        </div>
+        <script src="scripts/market/three.r134.min.js"></script>
+            <script src="scripts/market/vanta.fog.min.js"></script>
+            <script>
+            VANTA.FOG({
+                el: "#fog",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                highlightColor: 0x48003a,
+                midtoneColor: 0x110022,
+                lowlightColor: 0x4500a2,
+                baseColor: 0x0,
+                blurFactor: 0.5,
+                speed: 0.25,
+                zoom: 1
+            })
+            </script>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="links.html">Links</a></li>
+                </ul>
+            </nav>
+        </header>
         
+        <div class="content">
+            <div id="welcome">
+                <h2 id="welcome-title">ThatCorley</h2>
+                <div id="welcome-top">
+                    <img src="assets/images/profile picture.png" alt="Profile Picuture" id="profile-picture">
+                    <div id="welcome-text">
+                        <p>This is my silly little website to display all of the information about me that anyone could possibly need.</p>
+                        <p>Obviously I enjoy programming and have made some random small projects with most being unfinished but I do what I can.</p>
+                    </div>
+                </div>
+                <div id="fun-facts">
+                    <p>Fun Facts:</p>
+                    <ul>
+                        <li id="age">AGE</li>
+                        <li>I am from the United Kingdom</li>
+                        <li>I have been programming since my early teens</li>
+                        <li>I ride a motorcycle (CB125F 🥀) and hope to eventually gain my full license</li>
+                        <li>I keep all of my birthday and christmas cards 💀</li>
+                        <li>Energy drink addict</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row-2">
+                <div id="interests">
+                    <h2>Interests</h2>
+                    <hr>
+                    <div id="interests-general">
+                        <h3>General</h3>
+                        <ul>
+                            <li>Motorcycles</li>
+                            <li>Game Development</li>
+                            <li>Homelabbing</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="interests-anime">
+                        <h3>Anime</h3>
+                        <ul>
+                            <li>Re:ZERO - Starting Life in Another World</li>
+                            <li>Assassination Classroom</li>
+                            <li>Smoking Behind the Supermarket with You</li>
+                            <li>Jujutsu Kaisen</li>
+                            <li>Chainsaw Man</li>
+                            <li>The Emminence in Shadow</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="interests-games">
+                        <h3>Video Games</h3>
+                        <ul>
+                            <li>Dead By Daylight</li>
+                            <li>Subnautica</li>
+                            <li>Alien Isolation</li>
+                            <li>Resident Evil (Remakes)</li>
+                            <li>Friendslop Games 💀</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="activities">
+                    <h2>What I'm up to</h2>
+                    <hr>
+                    <ul>
+                        <li>Currently studying at university</li>
+                        <li>Taking part in <a href="https://stardance.hackclub.com">Stardance</a></li>
+                        <li>Developing Re:OS - A Re:ZERO inspired WebOS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/general.js"></script>
     </body>
 </html>

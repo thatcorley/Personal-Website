@@ -1,4 +1,4 @@
-# Personal-Website
+# Personal Website
 
 My personal site has been made to display any information about my online persona
 
